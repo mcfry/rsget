@@ -1,0 +1,15 @@
+{
+  "name": "rsget-app",
+  "productName": "rsget-app",
+  "version": "1.0.0",
+  "description": "Electron react application",
+  "main": "./main.prod.js",
+  "scripts": {
+    "electron-rebuild": "node -r babel-register ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "typeface-roboto": "^0.0.54"
+  }
+}
